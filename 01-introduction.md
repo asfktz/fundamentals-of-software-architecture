@@ -6,7 +6,7 @@ Software Architecture as a career does not have a clear career path because of s
 3. Because software evolves rapidly, creating a definition for software architecture today will most likely be outdated in a few years.
 4. Resources and materials on software architecture have only historical relevance. They're things that architects have tried, only to realize the damaging side effects some time later. Solutions that were once valid cannot work now because the context has changed.
 ## Defining Software Architecture
-Some architects think of the architecture as the _blueprint_ of the system, others as the _roadmap_ for developing it. The issue is understanding what both the blueprint and roadmap actually contain. When an architect analyzes an architecture, what is analyzed?
+Some architects think of architecture as the blueprint of the system, while others see it as the roadmap for developing it. The issue is understanding what both the blueprint and roadmap actually contain. When an architect analyzes an architecture, what is being analyzed?
 
 Software architecture consists of:
 - _Structure_
@@ -27,7 +27,7 @@ Software architecture consists of:
 	- For example, in order to increase performance, the architect can suggest dev teams to leverage async messaging between services within a microservice architecture
 	- While an _architectural decision_ defines exact constraints, _design principles_ allow more freedom to developers to choose an appropriate solution
 ## Expectations of an Architect
-Defining the role of an architect is equally difficult as define software architecture. But regardless of the definition, there are eight core expectations of software architects:
+Defining the role of an architect is as difficult as defining software architecture. But regardless of the definition, there are eight core expectations of software architects:
 - Make architecture decisions
 	- _An architect is expected to define the architecture decisions and design principles used to guide technology decisions within the team, the department, or across the enterprise_
 	- The key word is _guide_. An architect should _guide_ rather than _specify_ technology choices
@@ -76,7 +76,7 @@ Due to the facts that in software development predicting structural changes up f
 Historically, operations has been considered as a separate function and often outsourced. Because of that, architects couldn't control operations and had to design defensively around that restriction. That resulted in vastly more complex architectures. To address this, many companies started experimenting with new forms of architecture that combine many operational concerns with the architecture itself.
 For example, in older-style architectures like ESB-driven SOA, handling things like elastic scaling meant building them in the architecture itself, which greatly complicated it. In contrast to this, microservices architects realized that things like elasticity and scalability are best handled by the operations team. By creating a liaison between architecture and operations, architects can simplify the design and rely on ops for the things they handle best.
 ### Process
-The process that the development team uses has impact on many facets of software architecture. Agile projects can assume iterative development - iterative development and faster feedback loop for decisions. This allows architects to be more aggressive about experimentation.
+The process that the development team uses has an impact on many facets of software architecture. Agile projects can assume iterative development - iterative development and faster feedback loop for decisions. This allows architects to be more aggressive about experimentation.
 _"All architectures become iterative; it's just a matter of time" - Mark Richards (one of the authors)_
 ### Data
 - Code and data have a symbiotic relationship: one isn't useful without the other
